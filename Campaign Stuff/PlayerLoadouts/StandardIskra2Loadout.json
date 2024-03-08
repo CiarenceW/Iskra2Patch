@@ -1,0 +1,52 @@
+{
+    "meta" : {
+        "version" : 1
+    },
+    "content" : {
+        "version" : 1,
+        "loadout_name" : "Standard Iskra Loadout",
+        "gun_internal_name" : "szikaka.iskra",
+        "randomize_gun_slot" : false,
+        "gun_slot" : 14,
+        "equipment" : [
+            {
+                "randomize_slot" : false,
+                "slot" : 0,
+                "equipment_type" : 1,
+                "randomize_magazine_class" : false,
+                "magazine_class" : 0,
+                "tape" : 0,
+                "tape_string" : "",
+                "persistent_data" : null,
+                "prefab_name" : "",
+                "magazine_ammo" : 0,
+                "randomize_loaded_ammo_count" : false,
+                "random_loaded_ammo_min" : 0,
+                "random_loaded_ammo_max" : 0,
+                "chance_of_presence" : 0.4
+            }
+        ],
+        "randomize_gun_state" : false,
+        "spawn_without_gun" : false,
+        "spawn_without_tape_player" : false,
+        "simplified_tape_player" : true,
+        "activate_obituary_tape" : false,
+        "chambers" : [
+        ],
+        "ammo_count" : 9,
+        "stats" : {
+            "version" : 1,
+            "ammo" : 20,
+            "inventory" : 5,
+            "armor" : 1,
+            "speed" : 1,
+            "aim" : 21,
+            "stealth" : 7,
+            "invisible" : false
+        },
+        "player_height" : 1.70000004768372,
+        "tutorial_tapes" : [
+            400
+        ]
+    }
+}
