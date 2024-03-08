@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7253532324814736047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\Szikaka-Iskra2
+  definitions:
+  - {fileID: 5897886265953266890, guid: eb97f0647b8ef57489af0a16f0618121, type: 3}
+--- !u!114 &-7199041026915977598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\Szikaka-Iskra2
+  includeMetaFiles: 0
+  files: []
+--- !u!114 &-4557745545373457695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\Szikaka-Iskra2
+  assetBundles:
+  - assetBundleName: szikaka-iskra2.windows
+    assets:
+    - {fileID: 5119322030762777021, guid: ad86b0188bb3b3645be16a2b79fdd1a9, type: 3}
+    - {fileID: 11400000, guid: 18b3230c71ddadb4cbdc6e1f0b4268eb, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: Iskra2 Manifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 7941147326332531612}
+  - {fileID: -7253532324814736047}
+  - {fileID: -4557745545373457695}
+  - {fileID: -7199041026915977598}
+  identity: {fileID: 7941147326332531612}
+  QuickAccess: 0
+--- !u!114 &7941147326332531612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: Szikaka
+  Name: Iskra2
+  Description: A bolt action rifle for Receiver2
+  Version: 2.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}
